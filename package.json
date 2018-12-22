@@ -1,0 +1,31 @@
+{
+  "name": "raw-api",
+  "version": "1.0.0",
+  "description": "logistic rest api",
+  "main": "logistic_api.js",
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dawimuhammad/rxc.git"
+  },
+  "keywords": [
+    "raw",
+    "api",
+    "controller",
+    "server"
+  ],
+  "author": "phd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dawimuhammad/rxc/issues"
+  },
+  "homepage": "https://github.com/dawimuhammad/rxc#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0"
+  }
+}
